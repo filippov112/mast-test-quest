@@ -18,7 +18,7 @@ project/
 ├── client/               # GUI-клиент на PySide6
 │   └── main.py
 │
-├── dist/               # GUI-клиент на PySide6
+├── dist/               # Собранные билды
 │   ├── server_app/
 │   │   └── server_app.exe # Исполняемый файл сервера
 │   └── client_app.exe     # Исполняемый файл клиента

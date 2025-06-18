@@ -1,0 +1,57 @@
+venv/*
+venv311/*
+
+# Byte-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+
+# Файлы IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# SQLite БД
+*.db
+*.sqlite3
+
+# Файлы сборки PyInstaller
+dist/
+build/
+*.spec
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv/
+
+# Тестовые артефакты
+coverage.xml
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Утилиты и зависимости
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Инсталляционные пакеты
+*.egg
+*.egg-info/
+*.wheel
+*.whl
+MANIFEST
+
+# Прочее
+*.swp

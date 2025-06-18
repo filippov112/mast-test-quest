@@ -26,7 +26,7 @@ Thumbs.db
 *.sqlite3
 
 # Файлы сборки PyInstaller
-dist/
+#dist/
 build/
 *.spec
 

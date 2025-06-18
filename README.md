@@ -18,6 +18,11 @@ project/
 ├── client/               # GUI-клиент на PySide6
 │   └── main.py
 │
+├── dist/               # GUI-клиент на PySide6
+│   ├── server_app/
+│   │   └── server_app.exe # Исполняемый файл сервера
+│   └── client_app.exe     # Исполняемый файл клиента
+│
 ├── server/               # FastAPI сервер и логика БД
 │   ├── main.py           # Эндпоинты
 │   ├── crud.py           # Операции с БД
